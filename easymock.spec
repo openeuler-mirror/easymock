@@ -1,11 +1,10 @@
 Name:           easymock
 Version:        3.5
-Release:        5
+Release:        6
 Summary:        Easy mock objects
 License:        ASL 2.0
 URL:            http://www.easymock.org
 Source0:        %{name}-%{version}.tar.gz
-Source1:        generate-tarball.sh
 
 Patch0001:      0001-Disable-android-support.patch
 Patch0002:      0002-Unshade-cglib-and-asm.patch
@@ -76,5 +75,11 @@ rm core/src/test/java/org/easymock/tests2/ClassExtensionHelperTest.java
 %license core/LICENSE.txt
 
 %changelog
+* Tue Jan 21 2020 wutao <wutao61@huawei.com> - 
+- Type:bugfix
+- ID:NA
+- SUG:NA
+- DESC: modify spec
+
 * Thu Nov 14 2019 wangye<wangye54@huawei.com> - 3.5-5
 - Package init
