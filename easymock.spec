@@ -75,7 +75,7 @@ rm core/src/test/java/org/easymock/tests2/ClassExtensionHelperTest.java
 %license core/LICENSE.txt
 
 %changelog
-* Tue Jan 21 2020 wutao <wutao61@huawei.com> - 
+* Tue Jan 21 2020 wutao <wutao61@huawei.com> - 3.5-6
 - Type:bugfix
 - ID:NA
 - SUG:NA
